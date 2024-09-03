@@ -1,0 +1,47 @@
+<html>
+<head>
+    <title>Mi Pagina Web</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Pagina por ejemplo">
+   <link rel="stylesheet" href="style.css">
+  <script src="script.js">
+</head>
+  <style>
+    body{
+    background-color: lightblue;
+    }
+      </style>
+        <header>
+          <h1>Encabezado Principal</h1>
+          <nav>
+          <a href="#home"> Inicio </a>
+          <a href="#about"> Sobre Nosotros</a>
+          </nav>
+        </header>
+      <body>
+        <div>
+          <h1>Bienvenido a mi página web</h1>
+          <p>Este es un parrafo en <mark> texto</mark> <i> Cursiva</i>  </p> 
+          <ul>
+            <li>Elemento 1</li>
+            <li>Elemento 2</li>
+            <li>Elemento 3</li>
+          </ul>
+            <ol>
+              <li>Primer Elemento </li>
+              <li>Segundo Elemento</li>
+              <li>Tercer Elemento</li>
+            </ol>
+              <img src="image.jpg" alt="Descripcion de la imagen">
+              <label for="pais"> Elige tu país:</label>
+                <select id="pais" name="pais">
+                  <option value="mx"> Mexico </option>
+                  <option value="us"> Estados Unidos </option>
+                </select>
+              <button> Haz clic aqui </button>
+          </div>
+            <footer>
+              &copy; 2024 mi empresa
+            </footer>
+        </body>
+</html>
